@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% block content %}
+<!--<form method="post">-->
+<!--    {% csrf_token %}-->
+<!--{{frm.as_p}}-->
+<!--    <input type="submit" value="Update" style="background-color:#024488; color:#ffff;">-->
+<!--</form>-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+    <form method="POST" class="p-3 shadow">
+      {% csrf_token %}
+        <h4 style="color:darkblue;"> Update details</h4>
+        {{frm.as_p}}
+        <input type="submit" value="Update" class="btn btn-info">
+      </form>
+  </div>
+      <br>
+
+{% endblock %}

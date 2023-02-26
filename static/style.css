@@ -1,0 +1,16 @@
+.banner{
+    background-color:darkslateblue;
+    width :100%;
+    height:90px;
+    margin-bottom:50px;
+}
+
+
+.banner-text{
+top:2%;
+left:45%;
+position:absolute;
+transform:transform;
+color:gold;
+font-family:Georgia, serif;
+}
